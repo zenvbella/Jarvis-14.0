@@ -1,2 +1,5 @@
 # Jarvis-14.0
  
+Summary: Fortune telling prank simulator that requires primary user to be aware of the game (prank) and type in the answer to a question under the guise of typing the actual question. Can be used to trick a friend into thinking that the computer or program somehow knows all the intimate truths of their lives. TIP: Tell your friend that this is the newest AI-based fortune telling program.
+
+How it Works: User A (primary user and prank faciliator) opens game and shows to User B (person being pranked). User A asks User B to think of a question they want to ask computer ("Jarvis"). User A types the question into the prompted box, hits the TAB key, and then types the answer into that same box. The screen only shows the text entered before the TAB key was pressed. After clicking the "Generate Answer" button, the screen will show the answer as it was typed by User A.
