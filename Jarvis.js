@@ -17,6 +17,17 @@ function saveInput() {
     // Append the new element to the output div
     var outputContainer = document.getElementById("output");
     outputContainer.appendChild(outputDiv);
+
+    // Add a keydown event listener to the input field
+    input.addEventListener("keydown", function (event) {
+        if (event.code === "Tab") {
+            // Prevent the default tab behavior (moving focus to the next element)
+            event.preventDefault();
+
+            // Do something when the user presses the tab key
+            console.log("Tab key pressed!");
+        }
+    });
 }
 
 const button = document.getElementById("generateAnswer");
